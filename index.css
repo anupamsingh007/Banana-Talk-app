@@ -1,10 +1,10 @@
 nav {
-    background-color: #F2C94C;
+    background-color: #82c52a;
     text-align: center;
 }
 
 :root {
-    --primary: #F2C94C;
+    --primary: #82c52a;
     --black: #333333;
     --width-break: 600px;
 }
