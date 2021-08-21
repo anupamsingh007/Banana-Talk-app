@@ -1,0 +1,74 @@
+nav {
+    background-color: #F2C94C;
+    text-align: center;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+#heading {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#input {
+    width: 100%;
+    min-height: 20vh;
+    font-family: inherit;
+    font-size: large;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 2rem;
+
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+#btn {
+    background-color: var(--primary);
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family: 'Kalam', cursive;
+    border: none;
+}
+
+#output {
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    padding: 1rem;
+
+
+}
+
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
